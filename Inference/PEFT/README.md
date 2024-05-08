@@ -30,3 +30,27 @@ Todo list:
 - 整理Chat_Template
 
 参考：[Blog 1](https://huggingface.co/docs/transformers/main/zh/chat_templating), [Blog 2](https://discuss.huggingface.co/t/issue-with-llama-2-chat-template-and-out-of-date-documentation/61645/3), [Repo 1](https://github.com/chujiezheng/chat_templates?tab=readme-ov-file), [Blog 3 Understanding the LLM for Chat Templates](https://claude.ai/chat/8b2d328c-e5d0-4433-af15-6ad731700428)，[Blog 4](https://huggingface.co/spaces/huggingface-projects/llama-2-7b-chat)，[Blog 5](https://huggingface.co/meta-llama/Llama-2-7b-hf/tree/main)
+
+- git 远程提交
+```python
+# 查看分支
+git branch -r
+
+# push分支
+
+git push -u origin 分支名
+
+# 创建并转到该分支下
+
+git checkout -b 分支
+
+# 转到现有的分支
+git checkout 分支
+
+# 查看当前分支
+
+git status
+
+
+
+```
